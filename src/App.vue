@@ -7,6 +7,9 @@ import MenuBar from './components/MenuBar.vue';
     <header class="container_menu">
       <MenuBar/>
     </header>
+    <main>
+      <RouterView></RouterView>
+    </main>
   </div>
 </template>
 
