@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Ifelse from '../views/Ifelse.vue'
 import Show from '../views/Show.vue'
 import For from '../views/For.vue'
+import Bind from '../views/Bind.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -11,6 +12,7 @@ const router = createRouter({
     {path:"/ifelse", component:Ifelse},
     {path:"/show", component:Show},
     {path:"/for", component:For},
+    {path:"/bind", component:Bind},
   ],
 })
 
