@@ -6,10 +6,6 @@ const frutas = ['Manzana', 'Pera', 'Plátano', 'Naranja']
 
 <template>
   <div class="container">
-    <header class="container_menu">
-      <MenuBar />
-    </header>
-
     <main class="welcome">
       <section class="intro">
         <h1>v-for</h1>
